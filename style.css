@@ -1,15 +1,52 @@
 body{
     background-color: rgb(151, 0, 211);
     color: aqua;
+    font-family:Arial, sans-serif;
 }
+
 header{
     background-color:#5A108C ;
     color: #ADE6F6;
+    text-align: center;
+    padding: 30px;
 }
-<main>{
-    background-color: aquamarine;
+
+h1{
+    font-size: 36px;
 }
-<footer>{
-    background-color: #6338EE;
-    color: #000000;
+
+h2{
+    color: #5A108C;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    background-color: antiquewhite;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    color: #ADE6F6;
+    margin-top: 8px;
 }
