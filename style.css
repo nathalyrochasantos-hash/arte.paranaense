@@ -1,61 +1,63 @@
-body{
+body {
     background-color: rgb(151, 0, 211);
     color: aqua;
-    font-family:Arial, sans-serif;
-    margin:0;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-header{
-    background-color:#5A108C ;
+header {
+    background-color: #5A108C;
     color: #ADE6F6;
     text-align: center;
     padding: 30px;
 }
 
-h1{
+h1 {
     font-size: 36px;
 }
 
-h2{
+h2 {
     color: #5A108C;
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
 
 }
 
-nav{
-    margin top :20px;
+nav {
+    margin-top: 20px;
 }
-nav a{
-    color:white;
-    text-decoration:none;
+
+nav a {
+    color: white;
+    text-decoration: none;
     background-color: #9b4d83;
-    padding:10px 15px;
+    padding: 10px 15px;
     border-radius: 8px;
-    margin:5px;
+    margin: 5px;
     display: inline-block;
 
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #c77dff;
 }
 
-main{
+main {
     width: 80%;
     margin: auto;
 }
 
-section{
+section {
     background-color: antiquewhite;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
 }
 
-img{
+img {
     width: 100%;
     max-width: 600px;
     display: block;
@@ -63,26 +65,48 @@ img{
     border-radius: 12px;
 }
 
-figcaption{
+figcaption {
     text-align: center;
     font-size: 14px;
     color: #ADE6F6;
     margin-top: 8px;
 }
-card{
-background-color:black;
-padding:15px;
-margin:15px 0 ;
-border-left: 6px solid #5A108C;
-border-radius: 10px;
+
+.card {
+    background-color: black;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #5A108C;
+    border-radius: 10px;
 }
-card h3{
+
+.card h3 {
     margin-top: 0;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px; 
+    padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
 }
