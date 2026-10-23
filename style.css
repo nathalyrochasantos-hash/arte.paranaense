@@ -125,3 +125,14 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
+
+button:hover{
+    background-color: var (--cor-hover);
+}
+
+.galeria{
+    display: flex;
+    gap: 20 px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
